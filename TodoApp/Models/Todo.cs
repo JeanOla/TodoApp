@@ -14,7 +14,8 @@ namespace TodoApp.Models
         [Required]
         public string? Description { get; set; }
         public bool Status { get; set; }
-        
+
+        public int age { get; set; }
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime? DueDate { get; set; } // 
